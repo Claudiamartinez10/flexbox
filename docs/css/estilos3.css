@@ -1,0 +1,36 @@
+/*SELECTOR UNIVERSAL*/
+:root {
+    --color: red;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background-image: url(../img/paisaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 9px 5px 78px 17px rgba(0, 178, 209, 0.75);
+    -webkit-box-shadow: 9px 5px 78px 17px rgba(209, 0, 202, 0.75);
+    -moz-box-shadow: 9px 5px 78px 17px rgba(42, 0, 209, 0.826);
+    border: 15px double rgb(0, 213, 255);
+}
+
+header {
+    background-color: bisque;
+    color: black;
+    margin: 5px auto;
+    text-align: right;
+}
